@@ -3,6 +3,11 @@ body{
     background-position-x: 50%;
     background-position-y: 0%;
     background-repeat: no-repeat;
+    background-image: url('../img/Logo1.jpg');
+}
+
+.texthome{
+    margin-top: 8cm;
 }
 
 .logohome{

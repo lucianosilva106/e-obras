@@ -19,7 +19,7 @@ function Form() {
             onChange={(e) => setName(e.target.name)}
           />
        </label>
-        <button onChange={handleGrava()}> Enviar Formulário</button>
+        <button onChange={() => handleGrava()}> Enviar Formulário</button>
       </form>
     </div>
   );
