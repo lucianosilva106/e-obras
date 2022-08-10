@@ -1,8 +1,16 @@
+import React, { label } from 'react';
 
 function Form() {
 
   return (
-    <div>Preencha o formulario</div>
+    <div>
+      <br/>
+      <label>
+        Nome:
+        <input type="text" name="name" />
+      </label>
+      <input type="submit" value="Enviar" />
+    </div>
   );
 }
 
