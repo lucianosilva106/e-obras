@@ -13,9 +13,9 @@ function Home(){
                 <h3> Uma reforma requer cuidados estruturais e muita criatividade e competência para otimizar espaços, evitar desperdício de tempo e dinheiro.</h3>
                 <hr/>
                 <div className='textofoot'>
-                    <a style={{color: 'cadetblue'}} href="https://www.google.com.br"> Google</a> 
-                    <a style={{color: 'cadetblue'}} href="https://www.instagram.com"> Instagran</a> 
-                    <a style={{color: 'cadetblue'}} href="https://www.facebook.com"> Facebook</a> 
+                    <a style={{color: 'cadetblue'}} href="https://www.google.com.br" target="_blank"> Google</a> 
+                    <a style={{color: 'cadetblue'}} href="https://www.instagram.com" target="_blank"> Instagran</a> 
+                    <a style={{color: 'cadetblue'}} href="https://www.facebook.com" target="_blank"> Facebook</a> 
                     <h4>Copyright © e-Obras 2022</h4>
                 </div>
 

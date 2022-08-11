@@ -11,3 +11,12 @@ body{
     align-content: center;
     text-align: center;
 }
+
+.textofoot a{
+    text-decoration:cadetblue;
+}
+
+.textofoot a:hover{
+    background-color:blue ;
+    color: #fff;
+}
