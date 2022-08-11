@@ -4,7 +4,7 @@ import './style.css';
 function Header(){
     return(
         <header>
-            <h2>Faça sua obra acontecer</h2>
+            <h2>Construção Reforma Ampliação - Faça sua obra acontecer</h2>
             <div className="menu">
                 <Link to="/">Home</Link>
                 <Link to="/sobre">Sobre</Link>
