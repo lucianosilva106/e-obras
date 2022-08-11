@@ -6,6 +6,11 @@ body{
     background-image: url('../img/Logo1.jpg');
 }
 
+.texto{
+    color:brown;
+    margin-top: 9cm;
+}
+
 .textofoot{
     color:cadetblue;
     align-content: center;
@@ -19,4 +24,11 @@ body{
 .textofoot a:hover{
     background-color:blue ;
     color: #fff;
+}
+
+.imagens{
+    background-size: 70%;
+    background-position-x: 50%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
 }
