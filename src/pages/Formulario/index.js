@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form'
 
 import './Formulario.css'
 
@@ -16,15 +14,47 @@ function Formulario() {
   }
 
   return (
-    <Form className='form_container'>
-      <Form.Group className='mb-3' controlId='formBasicEmail'>
-        <Form.Label>Email</Form.Label>
-        <Form.Control type="email" placeholder="Entre com seu e-mail" />
-        <Form.Text className="text-muted">
-          Não forneça seu e-mail sem ter confiança.
-        </Form.Text>
-      </Form.Group>
-    </Form>
+    <div className='form_container'>
+    <h2>Formulário de Cadastro de Parceiros</h2>
+    <br/>
+    <form className='form_campo'>
+      <div>
+        <label>Nome Completo:
+          <input 
+            type="text" 
+            placeholder='Insira o seu nome completo'
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+         /> 
+        </label>
+      </div>
+      <div>
+        <label>Email:
+          <input 
+            type="text" 
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+           />
+        </label>
+      </div>
+     <label>Celular/Whatsapp:
+        <input 
+          type="text" 
+          value={telefone}
+          onChange={(e) => setTelefone(e.target.value)}
+        />
+     </label><br/>
+     <label>Habilidades profissionais:
+        <input 
+          type="text" 
+          value={habilidade}
+          onChange={(e) => setHabilidade(e.target.value)}
+        />
+     </label><br/>
+      <button onChange={() => handleGrava()}> Enviar Formulário</button>
+    </form>
+  </div>
+
   );
 }
 
