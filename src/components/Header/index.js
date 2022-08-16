@@ -10,6 +10,7 @@ function Header(){
                 <Link to="/sobre">Sobre</Link>
                 <Link to="/contato">Contato</Link>
                 <Link to="/formulario">Seja um parceiro</Link>
+                <Link to="/login">Login</Link>
             </div>
         </header>
     )

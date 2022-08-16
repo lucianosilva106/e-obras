@@ -4,13 +4,14 @@ import reformar from '../img/reforma.jpg'
 import gestao from '../img/gestao.jpg'
 import parceiro from '../img/parceiros.jpg'
 import cliente from '../img/cliente.jpg'
+import logo from '../img/Logo1.jpg'
 import './home.css';
 
 function Home(){
 
     return(
         <div>
-            <div id="logohome" />
+            <img src={logo} alt='Logotipo da aplicação' className='logo'/>
             <div className='texto'>
                 <h2>Quer construir?</h2>
                 <h3>Você que deseja iniciar uma obra do zero é importante um planejamento minucioso para que o cronograma
