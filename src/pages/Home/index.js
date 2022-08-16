@@ -1,6 +1,9 @@
 import React from 'react';
 import construir from '../img/construcao.jpg'
 import reformar from '../img/reforma.jpg'
+import gestao from '../img/gestao.jpg'
+import parceiro from '../img/parceiros.jpg'
+import cliente from '../img/cliente.jpg'
 import './home.css';
 
 function Home(){
@@ -16,14 +19,18 @@ function Home(){
                 <h2>Quer reformar?</h2>
                 <h3> Uma reforma requer cuidados estruturais e muita criatividade e competência para otimizar espaços, evitar desperdício de tempo e dinheiro.</h3> <br/>
                 <img src={reformar} alt='Reformas' className='imagens'/>
-                <div className='textofoot'>
-                    <a style={{color: 'cadetblue'}} href='https://www.google.com.br' target='_blank' rel='noreferrer'> Google</a> 
-                    <a style={{color: 'cadetblue'}} href='https://www.instagram.com' target='_blank' rel='noreferrer'> Instagran</a> 
-                    <a style={{color: 'cadetblue'}} href='https://www.facebook.com' target='_blank' rel='noreferrer'> Facebook</a> 
-                    <h4>Copyright © e-Obras 2022</h4>
-                </div>
+                <h2>Gestão centralizada e compartilhada</h2>
+                <h3>Gerenciar as obras através de uma plataforma centralizada, dinâmica e permitir que os clientes tenham acesso ao andamento de sua obra.</h3> <br/>
+                <img src={gestao} alt='Gestao das obras' className='imagens'/>
+                <h2>Equipe integrada</h2>
+                <h3>Gestão de equipes de trabalho, localização da obra em que estão alocados.</h3> <br/>
+                <img src={parceiro} alt='Parceiros' className='imagens'/>
+                <h2>Cliente satisfeito</h2>
+                <h3>Proporcionar ao cliente um acesso rápido ao andamento da obra com um canal direto de comunicação com o gerente.</h3> <br/>
+                <img src={cliente} alt='Cliente satisfeito' className='imagens'/>
 
             </div>
+            <br/>
         </div>
     );
 }

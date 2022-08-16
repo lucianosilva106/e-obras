@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form'
 
 import './Formulario.css'
 
-function Form() {
+function Formulario() {
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -14,41 +16,16 @@ function Form() {
   }
 
   return (
-    <div className='texto'>
-      <br/>
-      <form>
-        <label>Nome Completo:
-          <input 
-            type="text" 
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          /> <br/>
-       </label>
-       <label>Email:
-          <input 
-            type="text" 
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-       </label><br/>
-       <label>Celular/Whatsapp:
-          <input 
-            type="text" 
-            value={telefone}
-            onChange={(e) => setTelefone(e.target.value)}
-          />
-       </label><br/>
-       <label>Habilidades profissionais:
-          <input 
-            type="text" 
-            value={habilidade}
-            onChange={(e) => setHabilidade(e.target.value)}
-          />
-       </label><br/>
-        <button onChange={() => handleGrava()}> Enviar Formulário</button>
-      </form>
-    </div>
+    <Form className='form_container'>
+      <Form.Group className='mb-3' controlId='formBasicEmail'>
+        <Form.Label>Email</Form.Label>
+        <Form.Control type="email" placeholder="Entre com seu e-mail" />
+        <Form.Text className="text-muted">
+          Não forneça seu e-mail sem ter confiança.
+        </Form.Text>
+      </Form.Group>
+    </Form>
   );
 }
 
-export default Form;
+export default Formulario;

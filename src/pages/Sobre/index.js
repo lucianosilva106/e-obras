@@ -8,7 +8,7 @@ function Sobre(){
             <br/>
             <h2>Missão, Visão e Valores</h2>
             <hr/>
-            <h3>Missão</h3>
+            <h3><b>Missão</b></h3>
             <h3>Trabalhar com honestidade, segurança e transparência.</h3>
             <h3>Visão</h3>
             <h3>Garantir qualidade ao cliente no preço e tempo desejado.</h3>

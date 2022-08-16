@@ -1,4 +1,23 @@
-.texto{
-    color:brown;
-    margin-top: 9cm;
+.form_container{
+    color: brown;
+    width: 100%;
+    margin: 2em 0;
+    padding: 3em;
+    margin-top: 8cm;
+    align-items: center;
+    align-content: center;
+
+}
+
+.form_container h1{
+    margin-bottom: 0.5em;
+}
+
+.form_container p{
+    color: #7b7b7b;
+
+}
+
+.form_campo{
+    height: 1cm;
 }

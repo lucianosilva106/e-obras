@@ -8,11 +8,13 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 12px;
+    border-bottom: 1px solid #666;
 }
 
 header a{
     color: #FFF;
     font-size: 20px;
+    margin-right: 12px;
 }
 
 header a + a{

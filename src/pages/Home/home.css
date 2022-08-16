@@ -11,24 +11,10 @@ body{
     margin-top: 9cm;
 }
 
-.textofoot{
-    color:cadetblue;
-    align-content: center;
-    text-align: center;
-}
-
-.textofoot a{
-    text-decoration:cadetblue;
-}
-
-.textofoot a:hover{
-    background-color:blue ;
-    color: #fff;
-}
-
 .imagens{
     background-size: 70%;
     background-position-x: 50%;
     background-position-y: 0%;
     background-repeat: no-repeat;
+    border: 1px solid brown;
 }
